@@ -34,7 +34,7 @@ defmodule Burrito.Util do
       "x86_64" -> :x86_64
       "arm64" -> :arm64
       "aarch64" -> :aarch64
-      "arm" -> :arm32
+      "arm" -> :arm
       _ -> :unknown
     end
   end
